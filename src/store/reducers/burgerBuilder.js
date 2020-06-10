@@ -58,7 +58,7 @@ const setIngredients = (state, action) => {
 };
 
 const fetchIngredientsFailed = (state, action) => {
-	return updateObject(state, { error: false });
+	return updateObject(state, { error: true });
 };
 
 const reducer = (state = initialState, action) => {
